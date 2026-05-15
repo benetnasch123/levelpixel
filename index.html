@@ -7,24 +7,55 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="chatbot/chatbot.css">
 </head>
 <body>
 
 <!-- conteúdo da sua landing page -->
 
-  <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/6a0707d929a1d71c313d759e/1jolndak1';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+<!-- CHATBOT -->
+<script src="chatbot/chatbot.js"></script>
+<!-- BOTÃO FLUTUANTE -->
+
+<div id="chat-toggle">
+
+  <img src="imagens/bot.png" alt="Chat Bot">
+
+</div>
+
+<!-- CHAT -->
+ <div id="chatbox" class="hidden">
+
+  <div id="chat-header">
+    Atendimento Online
+  </div>
+
+  <div id="messages">
+
+    <div class="message-bot">
+      Olá 👋 Como posso ajudar?
+    </div>
+
+  </div>
+
+  <div id="input-area">
+
+    <input 
+      id="userInput" 
+      type="text" 
+      placeholder="Digite sua mensagem..."
+    >
+
+    <button id="sendBtn">
+      Enviar
+    </button>
+
+  </div>
+
+</div>
+
+<!--End of Chatbot Custom Script-->
+
 
 <!-- NAV -->
 <nav id="nav">

@@ -799,3 +799,4 @@ footer {
 .nav-mobile.open { display:flex; }
 .nav-mobile a { color:var(--text-muted); text-decoration:none; font-size:0.95rem; padding:10px 0; border-bottom:1px solid var(--glass-border); }
 .nav-mobile a:last-child { border:none; color:var(--blue); font-weight: 500; }
+
